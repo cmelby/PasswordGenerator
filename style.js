@@ -1,26 +1,39 @@
 
-// variables
-var passWd;
-var userInput = [];
+// Strings:
+var lower = "abcdefghijklmnopqrstuvwxyz";
+var caps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var numeric = "0123456789";
+var special = "!$^&*-=+_?";
 
-var characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, "!", "#", "$", "%", "&", "(", ")", "*", "+", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "^", "_", "`", "{", "|", "}", "~"];
-//27 0-26 special characters
-// 0-9
-//26 0-25 letters in the alphebet
-// document.onekeyup = function(userInput){
-passWd = alert("Lets create your password! All passwords must be between 8 & 128 characters."); {
-    if (passWd = true) {
-        var enterUc = prompt("Your password must incldue uppercase letters. Please enter below:");
-    
-    
-    }
+//Global varibles used to store the confirms:
+// passWd;
+upperC;
+lowerC;
+numericV;
+specialC;
+newPassWd;
+
+//=======================User Walkthough==================================//
+//Prompts & confirms
+var passWd = prompt("How many characters do you want to be in your password?"); 
+if (passWd < 8) {
+    alert("All passwords must be between 8-128 characters.");
+    prompt("How many characters do you want to be in your password?");
+  }
+  else if (passWd > 8 );
+
+var lower = confirm("Click ok to confirm including upper case letters."); 
+var caps = confirm("Click ok to confirm including lower case letters."); 
+var numeric = confirm("Click ok to confirm including numeric values."); 
+var special = confirm("Click ok to confirm including special characters."); 
+
+if (lower === true) {
+newPassWd.push(lower);
 }
 
-// }
 
 
-
-
-
-
-
+// var upperC = confirm("Click ok to confirm including upper case letters."); 
+// var lowerC = confirm("Click ok to confirm including lower case letters."); 
+// var numericV = confirm("Click ok to confirm including numeric values."); 
+// var specialC = confirm("Click ok to confirm including special characters."); 
