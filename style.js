@@ -58,7 +58,14 @@ function generatePW() {
 
 
 
-console.log(password);
+// function copy() {
+//    document.getElementById("passWD-text").select();
+//    document.execCommand("CopyPW");
+//    alert("Your password has been copied to clipbaord.")
+// }
+
+
+// console.log(password);
 // console.log(pWlenght);
 // console.log(upperC);
 // console.log(lowerC);
