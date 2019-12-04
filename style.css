@@ -1,23 +1,21 @@
 
-body {
-    background:rgb(201, 200, 200);
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 h1 {
-    text-align: center;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    float: center;
+    text-align: center;
 }
 
-.container {
+.container-2 {
     width: 900px;
     height: 400px;
     background:white;
-    margin-left: 15%;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 3px 3px 3px 3px rgb(233, 229, 229);
+    margin: auto;
     
 }
 
@@ -26,34 +24,23 @@ h1 {
     width: 850px;
     height: 350px;
     background: white;
-    margin: auto;
     color: black;
     border-radius: 8px;
 }
 
 h2 {
-    font-size: 30px;
-
-    
+    font-size: 30px; 
 }
+
+
 .typebox {
     height: 150px;
     width: 800px;
     text-align: center;
     border-style: dashed;
-
     border-color: rgb(240, 237, 237);
     margin: auto;
     border-radius: 8px;
 }
 
-.btn {
-    margin-left: 100px;
-    height: 40px;
-    width: 200px;
-    border-radius: 15px;
-    font-size: medium;
-    background: red;
-    
-}
 
