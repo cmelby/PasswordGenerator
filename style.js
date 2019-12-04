@@ -17,10 +17,10 @@ if (pWlenght < 8) {
     alert("All passwords must be between 8-128 characters.");
     prompt("How many characters do you want to be in your password?");
     
-  }
-  else if (pWlenght > 8 ); {
+   }
+   else if (pWlenght > 8 ); {
 
-  }
+   }
 upperC = confirm("Click ok to confirm including upper case letters."); 
 lowerC = confirm("Click ok to confirm including lower case letters."); 
 numericV = confirm("Click ok to confirm including numeric values."); 
@@ -48,6 +48,14 @@ var genChr = newPWstr.charAt(Math.floor(Math.random() * newPWstr.length));
 password = password.concat(genChr);
 
 }
+
+alert("click generate password below to receive your new password");
+
+function generatePW() {
+   document.getElementById("passWD-text").textContent = password;
+}
+
+
 
 
 console.log(password);
