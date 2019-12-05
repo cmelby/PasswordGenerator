@@ -2,12 +2,12 @@
 
 
 ## Site Picture 
-![alt text](passWDg.png)
+![alt text](password.png)
    
 
 ## Summary 
 
-The task in this project was to build a password generator. The application would prompt the user ot select whether or not they would like certain characters in their password them generate that password randomly as long as the user input met the conditions required.
+The task in this project was to build a password generator. The application would prompt the user ot select whether or not they would like certain characters in their password then generate that password randomly as long as the user input met the conditions required.
 
 ## Technologies Used
 - Javascript - prompts user, gernerates random password based on user input using conditionals, arrays, strings, functions, and loops.
